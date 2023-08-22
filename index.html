@@ -8,9 +8,25 @@
 </head>
 <body>
     
-<h1>Survivor season 2 COUNTDOWN</h1>
+    <div id="landing-page">
+       
+        <div class="container">
+            <div class="entryarea">
+                <input type="text" required>
+                <div class="labelline">Enter the password</div>
+            </div>
+        </div>
+    
+        <button class="start-button" onclick="startCountdown()">Start Countdown</button>
+    </div>
+    
 
-<div id="countdown" class="countdown">
+
+<h1 id="h1" style="display: none;">Survivor season 2 COUNTDOWN</h1>
+
+<div id="countdown" class="countdown" style="display: none;">
+
+
     <div class="time">
         <h2 id="days"></h2>
         <small>Days</small>
@@ -31,8 +47,6 @@
         <small>Seconds</small>
     </div>
 </div>
-
-
 
     <script src="app.js"></script>
 </body>

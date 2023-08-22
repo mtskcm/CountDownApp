@@ -1,3 +1,16 @@
+const correctPassword = "skip"; 
+
+
+function startCountdown() {
+    const inputPassword = document.querySelector('input[type="text"]').value;
+
+    if (inputPassword === correctPassword) {
+        document.getElementById('landing-page').style.display = 'none';
+        document.getElementById('countdown').style.display = 'flex';
+        document.getElementById('h1').style.display = 'flex';
+    }
+}
+
 const days  = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
@@ -10,6 +23,7 @@ const newYearTime = new Date(`September 1 ${currentYear} 00:00:00`);
 
 //Update Countdowntime
 function updateCountdowntime(){
+
     const currentTime = new Date();
     const diff = newYearTime - currentTime;
 
