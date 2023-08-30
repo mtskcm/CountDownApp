@@ -152,4 +152,51 @@ h1{
     }
 }
 
+/* ... [Váš pôvodný CSS kód bez @media časti] ... */
+
+@media(max-width:768px){
+    h1{
+        font-size: 35px;
+        margin: -150px 0 20px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    button {
+        font-size: 30px;
+        width: 220px;
+        padding: 10px;
+    }
+
+    .entryarea{
+        margin-top: -100px;
+    }
+
+    input{
+        font-size: 1.5em;
+        padding: 0 20px;
+        right: -45px;
+    }
+
+    .labelline{
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+
+    .time{
+        margin: 3px;
+    }
+
+    .time h2{
+        font-size: 24px;
+    }
+
+    .time small{
+        font-size: 8px;
+    }
+}
+
+
 
