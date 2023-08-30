@@ -181,19 +181,24 @@ h1{
     }
 
     .entryarea{
-        margin-top: -70px;
+        height: 50px;  /* Reduced height of the container */
+        line-height: 50px; /* Adjust the line height accordingly */
+        margin-top: -60px; /* Adjust top margin */
     }
 
     input{
-        font-size: 1.3em;
-        padding: 0 15px;
-        right: -35px;
-        border: 1px solid #f0ffff; /* thinner border */
+        font-size: 1.1em;  /* Slightly smaller font */
+        padding: 0 10px;  /* Reduced padding */
+        right: -25px;  /* Adjust positioning */
+        height: 40px;  /* Adjust the height of the input field */
+        border: 1px solid #f0ffff;  /* Maintain thinner border */
     }
 
     .labelline{
-        font-size: 1em;
-        margin: 0 5px;
+        font-size: 0.9em; /* Reduce the font size a bit */
+        margin: 0 5px; /* Adjust margin */
+        height: 20px;  /* Adjust the height */
+        transform: translate(-20px, -20px) scale(0.88); /* Adjust the transform property */
     }
 
     .time{
