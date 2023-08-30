@@ -168,7 +168,7 @@ h1{
         background-image: url("res/survivor.jpg");
         background-repeat: no-repeat;
         background-size: auto;
-        background-position: top right;
+        background-position: top center;
         height: 100vh;
         
     }
