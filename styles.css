@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.cdnfonts.com/css/survivor');
+@import url('https://fonts.cdnfonts.com/css/open-season');
 
 *{
     box-sizing: border-box;
@@ -65,6 +66,7 @@ button:hover, button:focus, button:active{
 
 .container{
     width: 600px;
+    color: #f0ffff;
 }
 
 .entryarea{
@@ -74,6 +76,7 @@ button:hover, button:focus, button:active{
     line-height: 80px;
     right: 80px;
     top: -250px;
+    color: #f0ffff;
 }
 
 input{
@@ -91,6 +94,7 @@ input{
     background: transparent;
     transition: 0.1s ease;
     z-index: 2222;
+    color: #f0ffff;
 }
 
 .labelline{
@@ -120,15 +124,31 @@ input.valid + .labelline{
     z-index: 2222;
 }
 
+#logo{
+    position: relative;
+    top: -250px;
+    width: auto; /* Adjust this as needed for desired size */
+    height: auto; /* This maintains the aspect ratio of the image */
+    z-index: 1;
+}
+
 h1{
     font-weight: normal;
     font-size: 60px;
     margin: -250px 0 40px;
+    color: black;
+    font-family: 'Open Season', sans-serif;
+                                                
 }
+
+
 
 .countdown{
     display: flex;
     transform: scale(2);
+    color: black;
+    font-family: 'Open Season', sans-serif;
+                                                
 }
 
 .time{
@@ -137,6 +157,8 @@ h1{
     align-items: center;
     justify-content: center;
     margin: 15px;
+    font-family: 'Open Season', sans-serif;
+                                                
 }
 
 .time h2{
@@ -144,6 +166,8 @@ h1{
     font-size: 36px;
     line-height: 1;
     margin: 0 0 5px;
+    font-family: 'Open Season', sans-serif;
+                                                
 }
 
 @media(min-width: 321px) and (max-width:768px){

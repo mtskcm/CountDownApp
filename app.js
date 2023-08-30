@@ -2,13 +2,22 @@ const correctPassword = "skip";
 
 
 function startCountdown() {
-    const inputPassword = document.querySelector('input[type="text"]').value;
 
+    const color = 'white';
+    const inputPassword = document.querySelector('input[type="text"]').value;
+    
     if (inputPassword === correctPassword) {
         document.getElementById('landing-page').style.display = 'none';
         document.getElementById('countdown').style.display = 'flex';
         document.getElementById('h1').style.display = 'flex';
+        document.getElementById('logo').style.display = 'flex';
+        document.body.style.backgroundColor = color;
+        document.body.style.backgroundImage = 'none'; 
     }
+
+    
+
+    
 }
 
 const days  = document.getElementById('days');
