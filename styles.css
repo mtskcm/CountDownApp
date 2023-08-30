@@ -194,6 +194,7 @@ h1{
         height: 40px;  /* Adjust the height of the input field */
         border: 1px solid #f0ffff;  /* Maintain thinner border */
         left: 20px;
+        width: 50%;
     }
 
     .labelline{
