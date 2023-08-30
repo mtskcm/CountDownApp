@@ -164,6 +164,15 @@ h1{
 /* ... [Váš pôvodný CSS kód bez @media časti] ... */
 
 @media(min-width: 321px) and (max-width:768px){
+    body{
+        background-image: url("res/survivor.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 100vh;
+        
+    }
+    
     h1{
         font-size: 25px;
         margin: -120px 0 20px;
@@ -186,7 +195,7 @@ h1{
         line-height: 50px; /* Adjust the line height accordingly */
         margin-top: -60px; /* Adjust top margin */
         left: 20px;
-        top: -120px;
+        top: -170px;
     }
 
     input{
@@ -197,7 +206,7 @@ h1{
         border: 1px solid #f0ffff;  /* Maintain thinner border */
         left: 20px;
         width: 80%;
-        top: -120px;
+        top: -170px;
     }
 
     .labelline{
