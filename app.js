@@ -4,9 +4,9 @@ const correctPassword = "skip";
 function startCountdown() {
 
     const color = 'white';
-    const inputPassword = document.querySelector('input[type="text"]').value;
+    const inputPassword = document.querySelector('input[type="text"]').value.toLowerCase();
     
-    if (inputPassword === correctPassword) {
+    if (inputPassword === correctPassword.toLowerCase()) {
         document.getElementById('landing-page').style.display = 'none';
         document.getElementById('countdown').style.display = 'flex';
         document.getElementById('h1').style.display = 'flex';
