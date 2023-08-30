@@ -33,7 +33,7 @@ body{
 
 button{
     position: relative;
-    top: 100px;
+    top: 90px;
     font-family: 'survivor', sans-serif;
     font-size: 50px;
     font-weight: bold;
@@ -178,6 +178,7 @@ h1{
         font-size: 22px;
         width: 180px;
         padding: 8px;
+        top: 50px;
     }
 
     .entryarea{
@@ -185,6 +186,7 @@ h1{
         line-height: 50px; /* Adjust the line height accordingly */
         margin-top: -60px; /* Adjust top margin */
         left: 20px;
+        top: 20px;
     }
 
     input{
@@ -194,7 +196,8 @@ h1{
         height: 40px;  /* Adjust the height of the input field */
         border: 1px solid #f0ffff;  /* Maintain thinner border */
         left: 20px;
-        width: 50%;
+        width: 80%;
+        top: 20px;
     }
 
     .labelline{
