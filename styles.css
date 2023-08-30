@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 body{
     background-image: url("res/survivor.jpg");
     background-repeat: no-repeat;
@@ -25,19 +22,28 @@ body{
     overflow: hidden;
 }
 
+.crossword{
+    position: relative;
+    color: rgb(226, 212, 14);
+    font-size: 20px;
+    top: 50px;
+    font-weight: bolder;
+    text-align: left;
+}
+
 button{
     position: relative;
-
+    top: 100px;
     font-family: 'survivor', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    background: wheat;
+    background: transparent;
     width: 300px;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    color: #0e0d0d;
+    color: rgb(226, 212, 14);
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -66,6 +72,8 @@ button:hover, button:focus, button:active{
     margin-top: -200px;
     height: 80px;
     line-height: 80px;
+    right: 80px;
+    top: -250px;
 }
 
 input{
@@ -105,9 +113,10 @@ input.valid{
 input:focus + .labelline,
 input.valid + .labelline{
     color: #f0ffff;
-    height: 10px;
-    line-height: 10px;
-    transform: translate(-15px, -16px) scale(0.88);
+    height: 30px;
+    line-height: 0px;
+    left: 70px;
+    transform: translate(-30px, -30px) scale(0.88);
     z-index: 2222;
 }
 
@@ -195,6 +204,10 @@ h1{
 
     .time small{
         font-size: 8px;
+    }
+
+    .crossword{
+        font-size: 20px;
     }
 }
 
