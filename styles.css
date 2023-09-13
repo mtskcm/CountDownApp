@@ -307,8 +307,8 @@ h1{
         height: 50px;  /* Reduced height of the container */
         line-height: 50px; /* Adjust the line height accordingly */
         margin-top: -60px; /* Adjust top margin */
-        right: 20px;
-        top: 40px;
+        right: 120px;
+        top: -40px;
     }
 
     input{
@@ -317,9 +317,9 @@ h1{
         right: -25px;  /* Adjust positioning */
         height: 40px;  /* Adjust the height of the input field */
         border: 1px solid #f0ffff;  /* Maintain thinner border */
-        right: 20px;
+        right: 120px;
         width: 80%;
-        top: 40px;
+        top: -40px;
     }
 
     .labelline{
@@ -347,8 +347,8 @@ h1{
         height: auto; /* Maintain aspect ratio */
         display: block; /* To ensure it takes the full width */
         margin:20px 0 auto; /* Center the image */
-        top: -80px;
-        right: 170px;
+        top: -100px;
+        right: 190px;
     }
     
 
