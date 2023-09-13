@@ -331,7 +331,7 @@ h1{
     }
 
     .image {
-        width: 100px; /* Adjust as necessary */
+        width: 300px; /* Adjust as necessary */
         height: auto; /* Maintain aspect ratio */
         display: block; /* To ensure it takes the full width */
         margin: 0 auto; /* Center the image */
