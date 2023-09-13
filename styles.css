@@ -305,11 +305,12 @@ h1{
     }
 
     .entryarea{
-        height: 50px;  /* Reduced height of the container */
-        line-height: 50px; /* Adjust the line height accordingly */
+        height: 60px;  /* Reduced height of the container */
+        line-height: 60px; /* Adjust the line height accordingly */
         margin-top: -60px; /* Adjust top margin */
         right: 120px;
         top: -40px;
+        color: #f0ffff;
     }
 
     input{
@@ -321,6 +322,11 @@ h1{
         right: 120px;
         width: 80%;
         top: -40px;
+        border-radius: 10px; /* Maintained border-radius */
+        background: transparent; /* Maintained background */
+        transition: 0.1s ease; /* Maintained transition */
+        z-index: 2222; /* Maintained z-index */
+        color: #f0ffff; /* Maintained color */
     }
 
     .labelline{
@@ -329,6 +335,7 @@ h1{
         height: 20px;  /* Adjust the height */
         transform: translate(-3px, -2px) scale(0.1); /* Adjust the transform property */
         top: -170px;
+        transition: 0.3s ease; /* Maintained transition */
     }
 
     input:focus,
@@ -342,7 +349,8 @@ h1{
         height: 30px;
         line-height: 0px;
         left: 15px; /* Adjust as necessary */
-        transform: translate(-3px, -2px) scale(0.1); /* Adjust the transform property */
+        transform: translate(-20px, -20px) scale(0.88); /* Adjusted transform */
+        z-index: 2222; /* Maintained z-index */
     }
 
     .time{
