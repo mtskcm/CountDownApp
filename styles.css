@@ -331,11 +331,12 @@ h1{
     }
 
     .crossword{
-        position: relative;
+        /* position: relative; */
         height: auto;
-        width: 100%;
-        top: 10px; /* Adjusted top position */
-        left: 0; /* Adjusted left position to align it properly */
+        width: 30%;
+        top: 0; /* Reset the top position */
+        left: 0; /* Reset the left position */
+        max-height: 150px; /* Set a maximum height to prevent it
         
         
     }
