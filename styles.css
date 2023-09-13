@@ -362,7 +362,7 @@ h1{
         height: auto; /* Maintain aspect ratio */
         display: block; /* To ensure it takes the full width */
         margin:20px 0 auto; /* Center the image */
-        top: -130px;
+        top: -150px;
         right: 190px;
     }
     
@@ -370,6 +370,7 @@ h1{
     .start-button{
         margin-top: 40px; /* reduced space */
         width: 200px;
+        right: 50px;
     }
 }
 
