@@ -9,7 +9,9 @@
 <body>
     
     <div id="landing-page">
-       <div class="crossword">1. Čo pred nami skrývajú v AREA 51 <br>
+       <div class="crossword">
+        <img class="image" src="res/crossword.jpg" alt="crossword">
+        <!-- 1. Čo pred nami skrývajú v AREA 51 <br>
         2. Slovo, ktoré používame každý deň <br>
         3. Bájna časť ženského tela <br>
         4. Každý správny prezident si nechá veci prejsť hlavou <br>
@@ -20,15 +22,30 @@
         9. Víťaz tábor roku 1943 <br>
         10. Dedečkov elixír <br>
         11. Keď majú čierny viac práv ako ženy <br>
-        12. Medzinárodný letecký deň New York 2001 
+        12. Medzinárodný letecký deň New York 2001  -->
+
+        <label class="checkbox-container">
+            By confirming, I commit to participating in the entire competition of Survivor SEASON 2.
+           <input type="checkbox" id="agreeCheckbox">
+            <span class="checkmark"></span>
+        </label>
+        
+
+        <!-- <input type="checkbox" id="agreeCheckbox">
+        <label id = "labelCheck" for="agreeCheckbox">I agree</label>  -->
+
         <div class="container">
             <div class="entryarea">
                 <input type="text" required>
-                <div class="labelline">Zadaj heslo</div>
+                <div class="labelline">1 10 5 6 8 4 3 11 2 4 9 7</div>
             </div>
         </div>
+        
     </div>
-        <button class="start-button" onclick="startCountdown()">CHCEM HRAT!</button>
+    
+        <button class="start-button" 
+        onclick="startCountdown()" 
+        >I WANT TO SURVIVE!</button>
     </div>
     
 

@@ -1,23 +1,33 @@
-const correctPassword = "skip"; 
+const correctPassword = "skip";
 
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('start-button');
+    const inputField = document.querySelector('input[type="text"]');
+    const checkbox = document.getElementById('agreeCheckbox');
+
+    function updateButtonState() {
+        const inputPassword = inputField.value.toLowerCase();
+        button.disabled = !(checkbox.checked && inputPassword === correctPassword.toLowerCase());
+    }
+
+    checkbox.addEventListener('change', updateButtonState);
+    inputField.addEventListener('input', updateButtonState);
+
+    button.onclick = startCountdown;
+});
 
 function startCountdown() {
-
     const color = 'white';
     const inputPassword = document.querySelector('input[type="text"]').value.toLowerCase();
-    
+
     if (inputPassword === correctPassword.toLowerCase()) {
         document.getElementById('landing-page').style.display = 'none';
         document.getElementById('countdown').style.display = 'flex';
         document.getElementById('h1').style.display = 'flex';
         document.getElementById('logo').style.display = 'flex';
         document.body.style.backgroundColor = color;
-        document.body.style.backgroundImage = 'none'; 
+        document.body.style.backgroundImage = 'none';
     }
-
-    
-
-    
 }
 
 const days  = document.getElementById('days');
@@ -27,7 +37,7 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(`September 1 ${currentYear} 00:00:00`);
+const newYearTime = new Date(`October 1 ${currentYear} 09:00:00`);
 
 
 //Update Countdowntime
