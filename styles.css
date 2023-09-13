@@ -332,10 +332,12 @@ h1{
 
     .crossword{
         position: relative;
-        height: 50%;
-        width: 50%;
-        font-size: 14px;
-        margin-bottom: 20px; /* space before the input */
+        height: auto;
+        width: 100%;
+        top: 10px; /* Adjusted top position */
+        left: 0; /* Adjusted left position to align it properly */
+        
+        
     }
 
     .start-button{
