@@ -351,7 +351,7 @@ h1{
         color: #f0ffff;
         height: 30px;
         line-height: 0px;
-        left: 70px; /* Adjust as necessary */
+        left: 20px; /* Adjust as necessary */
         transform: translate(-20px, -20px) scale(0.88); /* Adjusted transform */
         z-index: 2; /* Maintained z-index */
     }
