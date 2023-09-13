@@ -333,9 +333,9 @@ h1{
     .crossword{
         /* position: relative; */
         width: 5% !important; /* Using !important to ensure the style is applied */
-        height: auto; 
+        height: 5%!important; 
         max-width: 5% !important; /* Setting max-width to 5% as well */
-        max-height: 150px; 
+        max-height: 5%!important; 
         top: 0; 
         left: 0; 
         
