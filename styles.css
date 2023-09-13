@@ -298,7 +298,8 @@ h1{
         top: 5px; /* Moving it down a bit */
         text-align: center; /* Centering the text and checkbox */
         right: 190px;
-        font-size: 10px;
+        font-size: 7px;
+        font-weight: bold;
     }
 
     .entryarea{
