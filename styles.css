@@ -318,7 +318,6 @@ h1{
         right: -25px;  /* Adjust positioning */
         height: 40px;  /* Adjust the height of the input field */
         border: -2px solid #f0ffff;  /* Maintain thinner border */
-        box-shadow: none;
         right: 120px;
         width: 80%;
         top: -40px;
@@ -328,13 +327,13 @@ h1{
         font-size: 0.9em; /* Reduce the font size a bit */
         margin: 0 5px; /* Adjust margin */
         height: 20px;  /* Adjust the height */
-        transform: translate(-30px, -20px) scale(1); /* Adjust the transform property */
+        transform: translate(-3px, -2px) scale(0.1); /* Adjust the transform property */
         top: -170px;
     }
 
     input:focus,
     input.valid{
-        box-shadow: 0 0 0 2px #f0ffff;
+        border: -2px solid #f0ffff;
     }
 
     input:focus + .labelline,
@@ -343,7 +342,7 @@ h1{
         height: 30px;
         line-height: 0px;
         left: 15px; /* Adjust as necessary */
-        transform: translate(-30px, -20px) scale(1); /* Adjust as necessary */
+        transform: translate(-3px, -2px) scale(0.1); /* Adjust the transform property */
     }
 
     .time{
