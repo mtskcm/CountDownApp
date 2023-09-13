@@ -297,6 +297,7 @@ h1{
         right: 0; /* Resetting the right position to 0 to center it */
         top: 20px; /* Moving it down a bit */
         text-align: center; /* Centering the text and checkbox */
+        right: 100px;
     }
 
     .entryarea{
@@ -304,7 +305,7 @@ h1{
         line-height: 50px; /* Adjust the line height accordingly */
         margin-top: -60px; /* Adjust top margin */
         left: 120px;
-        top: -120px;
+        top: 20px;
     }
 
     input{
@@ -315,7 +316,7 @@ h1{
         border: 1px solid #f0ffff;  /* Maintain thinner border */
         left: 20px;
         width: 80%;
-        top: -170px;
+        top: 20px;
     }
 
     .labelline{
@@ -343,6 +344,8 @@ h1{
         height: auto; /* Maintain aspect ratio */
         display: block; /* To ensure it takes the full width */
         margin:20px 0 auto; /* Center the image */
+        bottom: 50px;
+        left: 50px;
     }
     
 
