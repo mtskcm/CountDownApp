@@ -298,8 +298,9 @@ h1{
         top: 5px; /* Moving it down a bit */
         text-align: center; /* Centering the text and checkbox */
         right: 190px;
-        font-size: 7px;
+        font-size: 10px;
         font-weight: bold;
+        width: 200px;
     }
 
     .entryarea{
@@ -353,7 +354,7 @@ h1{
 
     .start-button{
         margin-top: 40px; /* reduced space */
-        width: 80px;
+        width: 200px;
     }
 }
 
