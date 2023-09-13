@@ -330,14 +330,11 @@ h1{
         font-size: 7px;
     }
 
-    .crossword{
-        width: 5vw !important; /* 5% of the viewport width */
+    .image {
+        width: 100px; /* Adjust as necessary */
         height: auto; /* Maintain aspect ratio */
-        max-width: 5vw !important; 
-        max-height: 20vh !important; /* 20% of the viewport height */
-        position: relative; /* Re-enabled position relative */
-        top: 0; 
-        left: 0; 
+        display: block; /* To ensure it takes the full width */
+        margin: 0 auto; /* Center the image */
     }
     
 
