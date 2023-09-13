@@ -333,7 +333,7 @@ h1{
     .crossword{
         /* position: relative; */
         height: auto;
-        width: 30%;
+        width: 5%;
         top: 0; /* Reset the top position */
         left: 0; /* Reset the left position */
         max-height: 150px; /* Set a maximum height to prevent it
