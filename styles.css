@@ -321,7 +321,7 @@ h1{
         border: -2px solid #f0ffff;  /* Maintain thinner border */
         right: 120px;
         width: 80%;
-        top: -40px;
+        top: -20px;
         border-radius: 10px; /* Maintained border-radius */
         background: transparent; /* Maintained background */
         transition: 0.1s ease; /* Maintained transition */
@@ -334,7 +334,8 @@ h1{
         font-size: 1.2em; /* Reduce the font size a bit */
         padding: 0 20px; 
         margin: 0 15px; 
-       
+        height: 20px;  /* Adjust the height */
+        top: -30px;
         transition: 0.3s ease; /* Maintained transition */
         
     }
