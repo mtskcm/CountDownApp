@@ -352,6 +352,7 @@ h1{
 
     .start-button{
         margin-top: 40px; /* reduced space */
+        width: 80px;
     }
 }
 
