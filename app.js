@@ -1,4 +1,4 @@
-const correctPassword = "skip";
+const correctPassword = "uncleepstein";
 
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('start-button');
