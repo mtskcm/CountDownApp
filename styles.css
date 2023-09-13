@@ -321,7 +321,7 @@ h1{
         border: -2px solid #f0ffff;  /* Maintain thinner border */
         right: 120px;
         width: 80%;
-        top: -20px;
+        top: -80px;
         border-radius: 10px; /* Maintained border-radius */
         background: transparent; /* Maintained background */
         transition: 0.1s ease; /* Maintained transition */
