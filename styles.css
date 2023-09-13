@@ -325,19 +325,20 @@ h1{
         border-radius: 10px; /* Maintained border-radius */
         background: transparent; /* Maintained background */
         transition: 0.1s ease; /* Maintained transition */
-        z-index: 2222; /* Maintained z-index */
+        z-index: 1; /* Maintained z-index */
         color: #f0ffff; /* Maintained color */
     }
 
     .labelline{
         position: absolute;
-        font-size: 0.9em; /* Reduce the font size a bit */
-        margin: 0 5px; /* Adjust margin */
+        font-size: 1.2em; /* Reduce the font size a bit */
+        padding: 0 15px; 
+        margin: 0 10px; 
         height: 20px;  /* Adjust the height */
         
-        top: -170px;
+        top: -30px;
         transition: 0.3s ease; /* Maintained transition */
-        z-index: 2222;
+        z-index: 2;
     }
 
     input:focus,
@@ -351,9 +352,9 @@ h1{
         color: #f0ffff;
         height: 30px;
         line-height: 0px;
-        left: 15px; /* Adjust as necessary */
+        left: 50px; /* Adjust as necessary */
         transform: translate(-20px, -20px) scale(0.88); /* Adjusted transform */
-        z-index: 2222; /* Maintained z-index */
+        z-index: 2; /* Maintained z-index */
     }
 
     .time{
