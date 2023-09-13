@@ -327,7 +327,7 @@ h1{
         font-size: 0.9em; /* Reduce the font size a bit */
         margin: 0 5px; /* Adjust margin */
         height: 20px;  /* Adjust the height */
-        transform: translate(-20px, -20px) scale(0.88); /* Adjust the transform property */
+        transform: translate(-30px, -20px) scale(1); /* Adjust the transform property */
         top: -170px;
     }
 
