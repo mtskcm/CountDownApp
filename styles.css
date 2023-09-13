@@ -331,16 +331,15 @@ h1{
     }
 
     .crossword{
-        /* position: relative; */
-        width: 5% !important; /* Using !important to ensure the style is applied */
-        height: 5%!important; 
-        max-width: 5% !important; /* Setting max-width to 5% as well */
-        max-height: 5%!important; 
+        width: 5vw !important; /* 5% of the viewport width */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 5vw !important; 
+        max-height: 20vh !important; /* 20% of the viewport height */
+        position: relative; /* Re-enabled position relative */
         top: 0; 
         left: 0; 
-        
-        
     }
+    
 
     .start-button{
         margin-top: 40px; /* reduced space */
