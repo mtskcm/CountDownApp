@@ -318,6 +318,7 @@ h1{
         right: -25px;  /* Adjust positioning */
         height: 40px;  /* Adjust the height of the input field */
         border: -2px solid #f0ffff;  /* Maintain thinner border */
+        box-shadow: none;
         right: 120px;
         width: 80%;
         top: -40px;
@@ -333,7 +334,7 @@ h1{
 
     input:focus,
     input.valid{
-        border: -2px solid #f0ffff;
+        box-shadow: 0 0 0 2px #f0ffff;
     }
 
     input:focus + .labelline,
