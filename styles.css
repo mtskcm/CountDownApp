@@ -317,7 +317,7 @@ h1{
         padding: 0 10px;  /* Reduced padding */
         right: -25px;  /* Adjust positioning */
         height: 40px;  /* Adjust the height of the input field */
-        border: 1px solid #f0ffff;  /* Maintain thinner border */
+        border: -2px solid #f0ffff;  /* Maintain thinner border */
         right: 120px;
         width: 80%;
         top: -40px;
@@ -333,7 +333,7 @@ h1{
 
     input:focus,
     input.valid{
-        border: 1px solid #f0ffff;
+        border: -2px solid #f0ffff;
     }
 
     input:focus + .labelline,
