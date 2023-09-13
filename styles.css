@@ -334,8 +334,7 @@ h1{
         font-size: 1.2em; /* Reduce the font size a bit */
         padding: 0 20px; 
         margin: 0 15px; 
-        height: 20px;  /* Adjust the height */
-        top: -30px;
+       
         transition: 0.3s ease; /* Maintained transition */
         
     }
