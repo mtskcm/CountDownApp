@@ -370,7 +370,7 @@ h1{
     .start-button{
         margin-top: 40px; /* reduced space */
         width: 200px;
-        right: 50px;
+        right: -50px;
     }
 }
 
