@@ -286,7 +286,7 @@ h1{
 
     button {
         font-size: 22px;
-        width: 140px;
+        width: 110px;
         padding: 8px;
         top: 50px;
         right: 50px;
@@ -295,9 +295,9 @@ h1{
     .checkbox-container {
         position: relative;
         right: 0; /* Resetting the right position to 0 to center it */
-        top: 20px; /* Moving it down a bit */
+        top: 5px; /* Moving it down a bit */
         text-align: center; /* Centering the text and checkbox */
-        right: 150px;
+        right: 170px;
         font-size: 10px;
     }
 
