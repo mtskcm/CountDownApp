@@ -332,11 +332,12 @@ h1{
 
     .crossword{
         /* position: relative; */
-        height: 5%;
-        width: 5%;
-        top: 0; /* Reset the top position */
-        left: 0; /* Reset the left position */
-        max-height: 150px; /* Set a maximum height to prevent it
+        width: 5% !important; /* Using !important to ensure the style is applied */
+        height: auto; 
+        max-width: 5% !important; /* Setting max-width to 5% as well */
+        max-height: 150px; 
+        top: 0; 
+        left: 0; 
         
         
     }
