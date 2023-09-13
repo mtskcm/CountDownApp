@@ -332,7 +332,7 @@ h1{
 
     .crossword{
         /* position: relative; */
-        height: auto;
+        height: 5%;
         width: 5%;
         top: 0; /* Reset the top position */
         left: 0; /* Reset the left position */
