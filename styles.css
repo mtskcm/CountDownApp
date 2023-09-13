@@ -317,7 +317,7 @@ h1{
         font-size: 1.1em;  /* Slightly smaller font */
         padding: 0 10px;  /* Reduced padding */
         right: -25px;  /* Adjust positioning */
-        height: 80px;  /* Adjust the height of the input field */
+        height: 60px;  /* Adjust the height of the input field */
         border: -2px solid #f0ffff;  /* Maintain thinner border */
         right: 120px;
         width: 80%;
